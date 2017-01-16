@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void onClick(View arg0){
-        Log.d(LOG_TAG,"checked: ");
+        Log.d(LOG_TAG,"checked: sdgdfgh");
         SparseBooleanArray sbArray = lvMain.getCheckedItemPositions();
         for (int i = 0; i < sbArray.size(); i++) {
             int key = sbArray.keyAt(i);
