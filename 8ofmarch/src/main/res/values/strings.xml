@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">8OfMarch</string>
+    <string name="choise_1">Вибрано варіант 1</string>
+    <string name="choise_2">Вибрано варіант 2</string>
+    <string name="choise_3">Вибрано варіант 3</string>
+    <string name="choise_4">Вибрано варіант 4</string>
+    <string name="choise_5">Вибрано варіант 5</string>
+</resources>

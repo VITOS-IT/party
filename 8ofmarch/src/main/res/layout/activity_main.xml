@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vitos.a8ofmarch.MainActivity"
+    android:weightSum="1"
+    android:background="?android:attr/textColorHighlight">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="364dp"
+    android:id="@+id/scroll"
+    android:layout_weight="1.0">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:id="@+id/llMain">
+
+     </LinearLayout>
+</ScrollView>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:inputType="textPersonName"
+                android:hint="Введіть код"
+                android:ems="10"
+                android:id="@+id/editText" />
+
+    <Button
+        android:text="підтвердити"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/confirm"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clea"
+        android:id="@+id/clea"/>
+</LinearLayout>
+
+
+</LinearLayout>
