@@ -40,9 +40,8 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
 
         s=(ScrollView) findViewById(R.id.scroll);
         loadText();
-        for (int i=0;i<chacked.length();i++){
-            if(chacked.charAt(i)=='1') createAnswer(String.valueOf(i+1));
-        }
+         if(chacked!="")createAnswer(String.valueOf(chacked));
+
 
     }
 
@@ -53,7 +52,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         switch (v.getId()) {
             case R.id.clea:
 
-               chacked = "00000";
+               chacked = "";
                saveText();
 
                 break;
@@ -75,35 +74,35 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
 
                 llMain.addView(tView);
                 code.setText("");
-                chacked="10000";
+                chacked="1";
                 saveText();
                 break;
             case "2":
                 tView.setText(R.string.choise_2);
                 llMain.addView(tView);
                 code.setText("");
-                chacked="01000";
+                chacked="2";
                 saveText();
                 break;
             case "3":
                 tView.setText(R.string.choise_3);
                 llMain.addView(tView);
                 code.setText("");
-                chacked="00100";
+                chacked="3";
                 saveText();
                 break;
             case "4":
                 tView.setText(R.string.choise_4);
                 llMain.addView(tView);
                 code.setText("");
-                chacked="00010";
+                chacked="4";
                 saveText();
                 break;
             case "5":
                 tView.setText(R.string.choise_5);
                 llMain.addView(tView);
                 code.setText("");
-                chacked="00001";
+                chacked="5";
                 saveText();
                 break;
             default:
