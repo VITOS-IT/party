@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">8OfMarch</string>
+    <string name="choise_start">Перше завдання</string>
     <string name="choise_1">Вибрано варіант 1</string>
     <string name="choise_2">Вибрано варіант 2</string>
     <string name="choise_3">Вибрано варіант 3</string>
     <string name="choise_4">Вибрано варіант 4</string>
     <string name="choise_5">Вибрано варіант 5</string>
+    <string name="a00">  </string>
+    <string name="answer_1">1</string>
+    <string name="answer_2">12</string>
+    <string name="answer_3">123</string>
+    <string name="answer_4">1234</string>
+    <string name="answer_5">12345</string>
     <string name="start">Ми хочемо пограти з вами гру))</string>
 </resources>
